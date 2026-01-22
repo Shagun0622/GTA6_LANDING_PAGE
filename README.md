@@ -1,12 +1,36 @@
-# React + Vite
+# GTA 6 Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fan-made landing page inspired by the *Grand Theft Auto VI* promotional website.  
+Built with React, Tailwind CSS, and GSAP for scroll-triggered animations and cinematic UI effects.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡ Scroll-triggered animations with GSAP (ScrollTrigger)
+- 💻 Built with React (component-based UI)
+- 🎨 Responsive UI styled with Tailwind CSS
+- 📹 Optional video/background hero sections
+- 🌀 Parallax sections & smooth transitions
+- 🔧 Vite development environment (fast refresh + build)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — UI components and structure  
+- **Tailwind CSS** — Utility-first styling  
+- **GSAP** — High-performance animations  
+- **Vite** — Fast build & dev tooling
+
+## 📦 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/<your-username>/gta-6-landing-page.git
+cd gta-6-landing-page
+
+# Install dependencies
+npm install
+
+# Start local dev server
+npm run dev
+
+# Build for production
+npm run build
